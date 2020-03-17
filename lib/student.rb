@@ -1,13 +1,24 @@
 class Student
 #this gets the input
+<<<<<<< HEAD
 attr_accessor :name, :grade
   attr_reader :id
+=======
+attr_accessor :name, :grade, :id
+
+>>>>>>> ac5fab401286dbf871b6eb5a493582c2d5f6722c
 	 def initialize(name, grade, id=nil)
   @id = id
   @name = name
 	 @grade = grade
 	end
+<<<<<<< HEAD
 	
+=======
+	def id
+	  @id = id
+	end
+>>>>>>> ac5fab401286dbf871b6eb5a493582c2d5f6722c
 	#this creats a save place. id is PRIMARY
 	def self.create_table
 	sql =  <<-SQL 
